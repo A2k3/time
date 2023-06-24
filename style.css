@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: #A2CDB0;
+}
+h1{
+    color: #C38154;
+    font-size: 5rem;
+    font-family: 'Pirata One', cursive;
+    cursor: pointer;
+}
+h3{
+    font-size: 3rem;
+    font-family: 'Capriola', sans-serif;
+  
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex: 1 0 60%;
+    align-content: center;
+    background-color: #85A389;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.main:hover{
+    background-color: #116A7B;
+}
+
+h1:hover{
+    color: #884A39;
+}
